@@ -8,9 +8,96 @@
 </head>
 <body>
     
+    <div class="container-fluid cont">
+        <div class="row cont2">
+            <div class="col-lg-12 text-center header">Header</div>
+            <div class="row contents">
+                <div class="col-lg-12 content">
+                    <div class="row lalagyan">
+                <div class="col-lg-4 text-center left">Left side</div>
+                <div class="col-lg-3 text-center">
+                    
+                    <div class="row">
+                        <div class="col-lg-12 center">Center</div>
+                    
+                    </div>
+                    <button>Button</button>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="row">
+                        <div class="col-lg-12 right">
+                            Right side
+                        </div>
+                        
+                    </div>
+                    <button>Button</button>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center footer">Footer</div>
+        </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
+
+<style>
+    .cont{
+        height: 100vh;
+    }
+    .header{
+        height: 8vh;
+        border: 3px solid green;
+        padding-top: 0.5rem;
+        background-color: lightgreen;
+    }
+    .footer{
+        height: 8vh;
+        border: 3px solid green;
+        padding-top: 0.5rem;
+        background-color: lightgreen;
+    }
+    .contents{
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        border: 8px solid green;
+        height: 77.3vh;
+        margin-left: 1.3rem;
+    }
+    .lalagyan{
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        justify-content: left;
+        gap: 20px;
+    }
+    .left{
+        border: 10px solid green;
+        height: 75vh;
+        margin-right: 20px;
+        padding-top: 200px;
+    }
+    .center{
+        border: 10px solid green;
+        height: 60vh;
+        padding-top: 150px;
+    }
+    .right{
+        border: 10px solid green;
+        height: 60vh;
+        padding-top: 150px;
+    }
+    button{
+        width: 120px;
+        margin-top: 1rem;
+    }
+</style>
 
 </html>
